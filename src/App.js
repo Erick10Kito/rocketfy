@@ -11,11 +11,11 @@ function App() {
   return (
 
     <DndProvider backend={HTML5Backend}>
-      <GlobalStyle >
-        <Header />
-        <Board />
+      <Header />
 
-      </GlobalStyle>
+      <Board />
+
+      <GlobalStyle />
     </DndProvider>
 
   );
